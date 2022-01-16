@@ -1,0 +1,4 @@
+# All queries
+type Query{
+    client(id:ID):Client
+}

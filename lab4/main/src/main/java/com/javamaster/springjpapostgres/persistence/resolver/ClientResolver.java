@@ -9,6 +9,7 @@ public class ClientResolver implements GraphQLQueryResolver {
     public Client client(Integer id){
         System.out.println(id);
         Client cl = new Client();
+        cl.setId(1);
         cl.setNameSurname("asd");
         cl.setPhone("asd");
         return cl;

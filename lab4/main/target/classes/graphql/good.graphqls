@@ -2,24 +2,23 @@
 type Good {
     id: ID!
     name: String ,
-    price: Double,
-    amount:Integer,
+    price: Float,
+    amount:Int,
     brand:String,
     manufacturer:String,
-    discount:Integer
+    discount:Int
 
 }
 
 type Query {
-goods(count: Int):[Good]
-vehicle(id: ID):Good
+good(id: ID):Good
 }
 
 type Mutation {
 createGood(name: String ,
-    price: Double,
-    amount:Integer,
+    price: Float,
+    amount:Int,
     brand:String,
     manufacturer:String,
-    discount:Integer):Good
+    discount:Int):Good
 }

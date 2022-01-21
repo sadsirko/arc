@@ -3,5 +3,3 @@ id : ID!
 nameSurname: String!
 phone:String
 }
-
-scalar String

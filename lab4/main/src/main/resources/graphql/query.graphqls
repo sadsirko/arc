@@ -1,4 +1,5 @@
-# All queries
-type Query{
-    client(id:ID):Client
-}
+## All queries
+#type Query{
+#    client(id:ID):Client,
+#    goods(id:ID):Good
+#}

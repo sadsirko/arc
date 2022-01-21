@@ -17,5 +17,4 @@ public interface GoodServiceFacade {
     List<Good> getFullSearch(String query);
     List<Good> getFullAll();
 
-
 }
